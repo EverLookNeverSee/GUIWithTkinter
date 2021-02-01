@@ -6,3 +6,6 @@ root = Tk()
 
 # creating a label widget
 label_1 = Label(root, text="Hello World")
+
+# packing and showing label onto screen
+label_1.pack()
