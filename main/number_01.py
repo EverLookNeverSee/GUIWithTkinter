@@ -9,3 +9,6 @@ label_1 = Label(root, text="Hello World")
 
 # packing and showing label onto screen
 label_1.pack()
+
+# creating main loop
+root.mainloop()
