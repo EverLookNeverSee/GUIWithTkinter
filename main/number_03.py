@@ -7,7 +7,7 @@ from tkinter import *
 root = Tk()
 
 # Creating button widget and packing it
-myButton = Button(root, text="Click on me!")
+myButton = Button(root, text="Click on me!", padx=50, pady=50)
 myButton.pack()
 
 root.mainloop()
