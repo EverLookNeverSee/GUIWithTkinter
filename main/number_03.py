@@ -12,7 +12,7 @@ def my_click():
 
 
 # Creating button widget and packing it
-myButton = Button(root, text="Click on me!", padx=50, pady=50, command=my_click)
+myButton = Button(root, text="Click on me!", command=my_click, fg="blue", bg="red")
 myButton.pack()
 
 root.mainloop()
