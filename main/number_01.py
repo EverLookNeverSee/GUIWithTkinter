@@ -1,3 +1,5 @@
+""" Simple HelloWorld Program """
+
 # importing necessary modules
 from tkinter import *
 
