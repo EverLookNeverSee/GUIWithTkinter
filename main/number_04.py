@@ -9,3 +9,5 @@ root = Tk()
 # Creating an entry widget
 e = Entry(root)
 e.pack()
+
+root.mainloop()
