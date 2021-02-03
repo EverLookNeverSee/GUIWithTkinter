@@ -7,7 +7,7 @@ from tkinter import *
 root = Tk()
 
 # Creating an entry widget
-e = Entry(root)
+e = Entry(root, borderwidth=3)
 e.pack()
 
 root.mainloop()
